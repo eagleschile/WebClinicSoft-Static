@@ -1,0 +1,24 @@
+<svg width="220" height="52" viewBox="0 0 220 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="body" x1="0.15" y1="0.1" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#81D4FA"/>
+      <stop offset="0.5" stop-color="#29B6F6"/>
+      <stop offset="1" stop-color="#0288D1"/>
+    </linearGradient>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dflow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#29B6F6"/>
+      <stop offset="1" stop-color="#0288D1"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4,6)">
+    <path d="M150 20 C100 40 60 80 60 140 C60 180 90 220 120 240 C130 245 140 250 150 250 C160 250 170 245 180 240 C210 220 240 180 240 140 C240 80 200 40 150 20 Z"
+      fill="url(#body)"/>
+    <path d="M150 20 C100 40 60 80 60 140 C62 160 72 185 95 210 C78 195 70 165 78 130 C84 95 110 60 150 42 C146 30 150 20 150 20 Z"
+      fill="url(#hl)"/>
+  </g>
+  <text x="80" y="35" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="0.5" fill="url(#dflow)">Dflow</text>
+</svg>
